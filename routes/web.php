@@ -16,3 +16,16 @@ use Illuminate\Support\Facades\Route;
 Route::view('/', 'welcome');
 Route::view('contato', 'contato');
 Route::view('sobre', 'sobre');
+
+Route::get('clientes', function() {
+
+    $clientes = [
+        'Cliente 1',
+        'Cliente 2',
+        'Cliente 3'
+    ];
+
+    return view('interna.cliente', [
+        'clientes' => $clientes
+    ]);
+});
