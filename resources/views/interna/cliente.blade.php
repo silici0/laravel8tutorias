@@ -5,6 +5,6 @@
 	<li>Cliente dois</li>
 	<li>Cliente tres</li>
 	@foreach($clientes as $cliente)
-		<li> {{ $cliente </li>
+		<li> {{ $cliente }}</li>
 	@endforeach
 </ul>
