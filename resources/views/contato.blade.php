@@ -1,5 +1,9 @@
-<h1>Contato</h1>
+@extends('layout')
 
-<p>Entre em contato</p>
+@section('content')
+	<h1>Contato</h1>
 
-<p>11 - 2232-3213</p>
+	<p>Entre em contato</p>
+
+	<p>11 - 2232-3213</p>
+@endsection
